@@ -1,0 +1,42 @@
+@media screen and (max-width: 900px) {
+
+    .form-container{
+        width: 100%;
+        .form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .input-container{
+                padding-bottom: 10px;
+                width: 100%;
+                display: grid;
+                place-items: center;
+            }
+            .shape-inpute{
+                width: 80%;
+                margin-right: 0;
+            }
+            .button-container{
+                width: 100%;
+                display: grid;
+                place-items: center;
+            }
+            .button-form{
+                width: 85%;
+            }
+            .button-form:hover{
+                background-color: #7196F5;
+            }
+    
+        }
+    }
+
+    #validation-msg{
+        display: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: red;
+    }
+    
+}
